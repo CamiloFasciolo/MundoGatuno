@@ -1,0 +1,25 @@
+/* -------------------------- Inicio Medias Queries ------------------------- */
+
+@media (min-width:319px) and (max-width:425px) {
+
+    header {
+        width: 100vh;
+    }
+
+    .Patita {
+        display: none;
+    }
+
+    .Image {
+        width: 100%;
+        margin: 0;
+    }
+
+    .Image:hover {
+        transform: translate(0px);
+        transition: 1s;
+    }
+}
+
+
+/* --------------------------- Fin Medias Queries --------------------------- */

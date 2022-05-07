@@ -1,6 +1,7 @@
+
 /* ------------------------- Inicio Pagina de carga ------------------------- */
 .homecarga{
-    background-color: #f0e1cc;
+    background-color: #d19035;
     font-family: 'Fredoka One', cursive;
     font-size: 30px;
 }
@@ -22,8 +23,8 @@
 }
 
 .carga:hover{
- transform: rotate(40deg) scale(1);
- transition: 1s;
+transform: rotate(40deg) scale(1);
+transition: 1s;
 }
 /* --------------------- Fin animaciones Pagina de carga -------------------- */
 
@@ -36,6 +37,11 @@
     background-size: cover;
     font-family: 'Fredoka One', cursive;
     font-size: 15px;
+}
+
+.header-index{
+    margin-bottom: 1rem;
+    width: auto;
 }
 
 
@@ -63,6 +69,7 @@
     background-color: #efddd1;
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .Image {
@@ -72,14 +79,15 @@
 }
 
 .Curiosidades {
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
     width: auto;
     display: flex;
     justify-content: center;
 }
 
 .Texto-curiosidades {
-    margin: 1rem;
+    margin-left: 1rem;
     background-color: #efddd1;
 
 }
@@ -371,7 +379,24 @@
 }
 
 
+/* ----------------------------- Medias queries ----------------------------- */
 
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+.header-index{
+    width: 767px;
+}
+
+.Gaturiosidades{
+    width: 767px;
+}
+
+.footer{
+    display: flex;
+
+}
+
+}
 
 
 

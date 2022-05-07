@@ -1,0 +1,310 @@
+/* ------------------------------ Inicio Header's Extends Index,Cuidados,Alimentacion y Adopcion ------------------------------ */
+/* ----------------------------- Inicio Extends ----------------------------- */
+.entrenamientoheader, .adopcionheader, .alimentacionheader, .cuidadosheader, .Gatips {
+  color: black;
+  font-size: 2rem;
+  background-color: #efddd1;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------- Fin Extends ------------------------------ */
+.Inicio {
+  color: black;
+  font-size: 1rem;
+  background-color: #efddd1;
+  border: 1px black solid;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+/* ------------------------------ Fin Header's ------------------------------ */
+/* ----------------------------- Header Contacto ---------------------------- */
+.contactotitulo {
+  background-color: #efddd1;
+  font-size: 25px;
+}
+
+/* ------------------------------ Fin Header's ------------------------------ */
+/* ------------------------------- Home General ------------------------------- */
+.home {
+  background-image: url(../multimedia/Imagenes/fondooo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Fredoka One", cursive;
+  font-size: 15px;
+}
+
+/* ------------------------------- Body Index ------------------------------- */
+.Inicio {
+  color: black;
+  font-size: 1rem;
+  background-color: #efddd1;
+  border: 1px black solid;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.Gaturiosidades {
+  border: 1px black solid;
+  background-color: #efddd1;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.Image {
+  margin: 1rem;
+  width: auto;
+  height: 300px;
+}
+
+.Curiosidades {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.Texto-curiosidades {
+  margin: 1rem;
+  background-color: #efddd1;
+}
+
+/* ------------------------------ Body Cuidados ----------------------------- */
+.cuidadosimage {
+  margin: 1rem;
+  width: auto;
+}
+
+.cuidadosaseo {
+  color: black;
+  font-size: 1rem;
+  background-color: #efddd1;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+.textoaseo {
+  margin: 1rem;
+  background-color: #efddd1;
+}
+
+.cuidadoscepillo {
+  color: black;
+  font-size: 1rem;
+  background-color: #efddd1;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+.textocepillo {
+  margin: 1rem;
+  background-color: #efddd1;
+}
+
+/* ---------------------------- Body Alimentacion --------------------------- */
+.textoalimentacion {
+  margin: 1rem;
+  background-color: #efddd1;
+}
+
+.servircomida {
+  color: black;
+  font-size: 1rem;
+  background-color: #efddd1;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------ Body Adopcion ----------------------------- */
+.adopcionimage {
+  width: auto;
+}
+
+.adopcionnuevo {
+  color: black;
+  font-size: 1rem;
+  background-color: #efddd1;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+.adopciontexto {
+  margin: 1rem;
+  background-color: #efddd1;
+}
+
+/* --------------------------- Body Entrenamiento --------------------------- */
+.gif {
+  margin: 1rem;
+  width: auto;
+}
+
+.entrenamientotitulo {
+  color: black;
+  font-size: 1rem;
+  background-color: #efddd1;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+.entrenamientotexto {
+  margin: 1rem;
+  background-color: #efddd1;
+}
+
+/* ------------------------------ Body Contacto ----------------------------- */
+.gmail {
+  background-color: #efddd1;
+}
+
+/* ------------------------------- Fin Body's ------------------------------- */
+/* --------------------------- Inicio Animaciones --------------------------- */
+/* ------------------------------- Animaciones Index ------------------------------ */
+.Image:hover {
+  transform: translate(200px);
+  transition: 1s;
+}
+
+.Curiosidades:hover {
+  transform: translate(200px);
+  transition: 1s;
+}
+
+.Patita:hover {
+  transform: rotate(100deg) scale(1);
+}
+
+/* -------------------------- Animaciones Cuidados -------------------------- */
+.cuidadosimage:hover {
+  transform: translate(200px);
+  transition: 1s;
+}
+
+.Patita:hover {
+  transform: rotate(100deg) scale(1);
+}
+
+/* -------------------------- Animaciones Alimentacion -------------------------- */
+.Patita:hover {
+  transform: rotate(100deg) scale(1);
+}
+
+/* ------------------------- Animacion Entrenamiento ------------------------ */
+.gif:hover {
+  transform: translate(200px);
+  transition: all 1s;
+}
+
+/* ------------------------------ Footer General ------------------------------ */
+.footer {
+  padding: 0%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  list-style: none;
+}
+
+/* ------------------------------ Fin Footer's ------------------------------ */
+/* ---------------------------- Inicio Bootstrap ---------------------------- */
+.bg-gatips {
+  background-color: #efddd1;
+}
+
+.navbar-text {
+  color: black;
+  border: 1px black solid;
+  font-family: "Fredoka One", cursive;
+}
+
+/* ------------------------------ Fin Bootstrap ----------------------------- */
+/* -------------------------- Inicio Medias Queries ------------------------- */
+/* -------------------------- Inicio Index Queries -------------------------- */
+@media (min-width: 319px) and (max-width: 425px) {
+  header {
+      width: 100%;
+  }
+
+  .Patita {
+      display: none;
+  }
+
+  .Image {
+      width: 100%;
+      margin: 0;
+      margin-top: 1rem;
+  }
+
+  .Image:hover {
+      transform: translate(0px);
+      transition: 1s;
+  }
+
+/* ---------------------------- Fin Index Queries --------------------------- */
+/* ------------------------- Inicio Adopcion Queries ------------------------ */
+.adopciontexto {
+  text-decoration: underline;
+}
+/* -------------------------- Fin Adopcion Queries -------------------------- */
+/* ----------------------- Inicio Alimentacion Queries ---------------------- */
+.textoalimentacion{
+  text-decoration: underline;
+}
+/* ------------------------ Fin Alimentacion Queries ------------------------ */
+/* ------------------------- Inicio Cuidados Queries ------------------------ */
+
+.cuidadosimage{
+  width: 425px;
+  height: auto;
+  margin: 0%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.textoaseo{
+  text-decoration: underline;
+}
+
+.textocepillo{
+  text-decoration: underline;
+}
+
+/* -------------------------- Fin Cuidados Queries -------------------------- */
+/* ---------------------- Inicio Entrenamiento Queries ---------------------- */
+
+.entrenamientotexto{
+  text-decoration: underline;
+}
+
+/* ------------------------ Fin Entrenamiento Queries ----------------------- */
+
+.mapa{
+  width: 100%;
+  margin-top: 1rem;
+}
+}
+
+/* --------------------------- Fin Medias Queries --------------------------- */
+/* ----------------------------- Inicio Extends ----------------------------- */
+.Gatips, .cuidadosheader, .alimentacionheader, .adopcionheader, .entrenamientoheader {
+  color: black;
+  font-size: 2rem;
+  background-color: #efddd1;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------- Fin Extends ------------------------------ */
+
+/*# sourceMappingURL=style.css.map */

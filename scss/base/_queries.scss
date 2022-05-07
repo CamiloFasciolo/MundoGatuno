@@ -1,0 +1,67 @@
+/* -------------------------- Inicio Medias Queries ------------------------- */
+/* -------------------------- Inicio Index Queries -------------------------- */
+@media (min-width: 319px) and (max-width: 425px) {
+    header {
+        width: 100%;
+    }
+
+    .Patita {
+        display: none;
+    }
+
+    .Image {
+        width: 100%;
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .Image:hover {
+        transform: translate(0px);
+        transition: 1s;
+    }
+
+/* ---------------------------- Fin Index Queries --------------------------- */
+/* ------------------------- Inicio Adopcion Queries ------------------------ */
+.adopciontexto {
+    text-decoration: underline;
+}
+/* -------------------------- Fin Adopcion Queries -------------------------- */
+/* ----------------------- Inicio Alimentacion Queries ---------------------- */
+.textoalimentacion{
+    text-decoration: underline;
+}
+/* ------------------------ Fin Alimentacion Queries ------------------------ */
+/* ------------------------- Inicio Cuidados Queries ------------------------ */
+
+.cuidadosimage{
+    width: 425px;
+    height: auto;
+    margin: 0%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.textoaseo{
+    text-decoration: underline;
+}
+
+.textocepillo{
+    text-decoration: underline;
+}
+
+/* -------------------------- Fin Cuidados Queries -------------------------- */
+/* ---------------------- Inicio Entrenamiento Queries ---------------------- */
+
+.entrenamientotexto{
+    text-decoration: underline;
+}
+
+/* ------------------------ Fin Entrenamiento Queries ----------------------- */
+
+.mapa{
+    width: 100%;
+    margin-top: 1rem;
+}
+}
+
+/* --------------------------- Fin Medias Queries --------------------------- */

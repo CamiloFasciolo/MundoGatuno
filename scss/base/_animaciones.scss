@@ -1,0 +1,42 @@
+/* --------------------------- Inicio Animaciones --------------------------- */
+
+/* ------------------------------- Animaciones Index ------------------------------ */
+
+.Image:hover{
+    transform: translate(200px);
+    transition: 1s;
+}
+
+.Curiosidades:hover{
+    transform: translate(200px);
+    transition: 1s;
+}
+
+.Patita:hover{
+    transform: rotate(100deg) scale(1) 
+}
+
+/* -------------------------- Animaciones Cuidados -------------------------- */
+
+.cuidadosimage:hover{
+    transform: translate(200px);
+    transition: 1s;
+}
+
+.Patita:hover{
+    transform: rotate(100deg) scale(1) 
+}
+
+
+/* -------------------------- Animaciones Alimentacion -------------------------- */
+
+.Patita:hover{
+    transform: rotate(100deg) scale(1) 
+}
+
+/* ------------------------- Animacion Entrenamiento ------------------------ */
+
+.gif:hover{
+    transform: translate(200px);
+    transition: all 1s;
+}

@@ -1,0 +1,144 @@
+/* ------------------------------- Home General ------------------------------- */
+
+@import '../base/mixins';
+.home {
+    background-image: url(/multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+/* ------------------------------- Body Index ------------------------------- */
+
+.Inicio {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Gaturiosidades {
+    border: 1px black solid;
+    background-color: #efddd1;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.Image {
+    margin: 1rem;
+    width: auto;
+    height: 300px;
+}
+
+.Curiosidades {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Texto-curiosidades{
+    @include textos
+}
+/* ------------------------------ Body Cuidados ----------------------------- */
+
+.cuidadosimage {
+    margin: 1rem;
+    width: auto;
+}
+
+.cuidadosaseo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.textoaseo {
+    @include textos
+}
+
+.cuidadoscepillo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.textocepillo {
+    @include textos
+}
+
+/* ---------------------------- Body Alimentacion --------------------------- */
+
+.textoalimentacion {
+    @include textos
+}
+
+.servircomida {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ------------------------------ Body Adopcion ----------------------------- */
+
+.adopcionimage {
+    width: auto;
+}
+
+.adopcionnuevo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.adopciontexto {
+    @include textos
+}
+
+/* --------------------------- Body Entrenamiento --------------------------- */
+
+.gif {
+    margin: 1rem;
+    width: auto;
+}
+
+.entrenamientotitulo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.entrenamientotexto {
+    @include textos
+}
+
+
+/* ------------------------------ Body Contacto ----------------------------- */
+
+.gmail {
+    background-color: #efddd1;
+}
+
+/* ------------------------------- Fin Body's ------------------------------- */

@@ -1,0 +1,45 @@
+/* ------------------------------ Inicio Header's Extends Index,Cuidados,Alimentacion y Adopcion ------------------------------ */
+@import '../base/extend';
+
+.Gatips {
+@extend %headers
+}
+
+.Inicio {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.cuidadosheader {
+    @extend %headers;
+}
+
+.alimentacionheader {
+    @extend %headers;
+}
+
+.adopcionheader {
+    @extend %headers;
+}
+
+
+.entrenamientoheader {
+    @extend %headers;
+}
+
+/* ------------------------------ Fin Header's ------------------------------ */
+
+/* ----------------------------- Header Contacto ---------------------------- */
+
+
+.contactotitulo {
+    background-color: #efddd1;
+    font-size: 25px;
+}
+
+/* ------------------------------ Fin Header's ------------------------------ */
